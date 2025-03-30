@@ -1,0 +1,18 @@
+🚀 GitHub Push Workflow (SSH + gh CLI)
+
+📁 Step 1: Initialize Git (if not already)
+git init
+
+🗂 Step 2: Add all your files
+git add .
+
+💬 Step 3: Commit your files
+git commit -m "Initial commit: HTML, CSS, JS for Cyber Hands site"
+
+🛠️ Step 4: Create GitHub repo and push
+gh repo create website --public --source=. --remote=origin --push
+
+🧪 Step 5 (Optional): If you forgot --push
+git push -u origin master  # or git push -u origin main
+
+✅ Your code is now on GitHub!
